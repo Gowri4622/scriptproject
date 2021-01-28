@@ -284,7 +284,4 @@ volBtn.addEventListener('click',function(e){
 
 
 ## RESULT:
- Thus a websites is designed to calculate the  volume of a cylinder and volume of rectangular prism using JavaScript and is hosted in the URLs 
- http://gowri.student.saveetha.in:8000/mathcylindervolume
- http://gowri.student.saveetha.in:8000/rectangularprismvolume
-and the HTML codes is validated.
+ Thus a websites is designed to calculate the  volume of a cylinder and volume of rectangular prism using JavaScript and is hosted in the URLs  http://gowri.student.saveetha.in:8000/mathcylindervolume , http://gowri.student.saveetha.in:8000/rectangularprismvolume and the HTML codes is validated.
