@@ -11,7 +11,7 @@ volBtn.addEventListener('click',function(e){
 
     let rectanglevolume;
 
-    rectanglevolume = parseFloat(txtLength.value) * parseFloat(txtWidth.value);
+    rectanglevolume = parseFloat(txtLength.value) * parseFloat(txtWidth.value) * parseFloat(txtHeight.value);
 
     txtRectvolume.value = rectanglevolume;
 });
