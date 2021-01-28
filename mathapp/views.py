@@ -6,10 +6,11 @@ def mathadd(request):
     context = {}
     return render(request, 'mathapp/mathadd.html', context)
 
-def mathadd(request):
+
+def mathcylindervolume(request):
     context = {}
     return render(request, 'mathapp/mathcylindervolume.html', context)
 
-def mathadd(request):
+def rectangularprismvolume(request):
     context = {}
     return render(request, 'mathapp/rectangularprismvolume.html', context)

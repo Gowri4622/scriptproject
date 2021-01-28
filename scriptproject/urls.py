@@ -20,6 +20,6 @@ from mathapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('mathadd/',views.mathadd, name='mathadd'),
-    path('mathcylindervolume/',views.mathadd, name='mathcylindervolume'),
-    path('rectangularprismvolume/',views.mathadd, name='rectangularprismvolume'),
+    path('mathcylindervolume/',views.mathcylindervolume, name='mathcylindervolume'),
+    path('rectangularprismvolume/',views.rectangularprismvolume, name='rectangularprismvolume'),
 ]
