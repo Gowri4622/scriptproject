@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Volume of rectangular prism</title>
+    <link rel="stylesheet" href="{% static 'css/rectangularprismvolume.css' %}">
+</head>
+
+<body>
+    <div class="container">
+        <div class="formview">
+            <div class="banner">
+                RECTANGULAR PRISM VOLUME
+            </div>
+            <div class="content">
+                <form action="/mathcylindervolume/" method="GET">
+                    {% csrf_token %}
+                    <div class="forminput">
+                        <label for="value_length">LENGTH=</label>
+                        <input type="text" name="value_length" id="value_length">
+                    </div>
+                    <div  class="forminput">
+                        <label for="value_width">WIDTH=</label>
+                        <input type="text" name="value_width" id="value_width">
+                    </div>
+                    <div  class="forminput">
+                        <label for="value_height">HEIGHT=</label>
+                        <input type="text" name="value_height" id="value_height">
+                    </div>                    
+                    <div class="forminput">
+                        <button type="button" name="button_volume" id="button_volume">Volume</button>
+                    </div>
+                    <div  class="forminput">
+                        <label for="value_rectanglevolume">VALUE=</label>
+                        <input type="text" name="value_rectanglevolume" id="value_rectanglevolume" readonly>
+                    </div>  
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="/static/js/rectangularprismvolume.js"></script>
+</body>
+
+</html>
